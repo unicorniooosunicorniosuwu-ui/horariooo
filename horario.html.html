@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horario</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4ff;
+      margin: 0;
+      padding: 0;
+    }
+    table {
+      width: 90%;
+      margin: 40px auto;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      border: 1px solid #ddd;
+      text-align: center;
+      padding: 10px;
+    }
+    th {
+      background-color: #1e90ff;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    .descanso {
+      background-color: #cce0ff !important;
+      color: #000;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <th>N° Hora</th>
+      <th>Lunes</th>
+      <th>Martes</th>
+      <th>Miércoles</th>
+      <th>Jueves</th>
+      <th>Viernes</th>
+    </tr>
+    <tr>
+      <td>1 (6:00 - 7:00)</td>
+      <td>Física<br>Juan G</td>
+      <td>Inglés<br>Hernando R</td>
+      <td>Ética y Valores<br>Leonela H</td>
+      <td>Física<br>Juan G</td>
+      <td>Lengua Castellana<br>Paula F</td>
+    </tr>
+    <tr>
+      <td>2 (7:00 - 8:00)</td>
+      <td>Sociales<br>Marelvis M</td>
+      <td>Inglés<br>Hernando R</td>
+      <td>Educación Religiosa<br>Andrés B</td>
+      <td>Física<br>Juan G</td>
+      <td>Lengua Castellana<br>Paula F</td>
+    </tr>
+    <tr>
+      <td>3 (8:00 - 9:00)</td>
+      <td>Matemáticas<br>Juan G</td>
+      <td>Química<br>Andersson</td>
+      <td>Educación Física<br>Alba U</td>
+      <td>Estadística<br>Oscar B</td>
+      <td>Inglés<br>Hernando R</td>
+    </tr>
+    <tr>
+      <td>4 (9:00 - 10:00)</td>
+      <td>Matemáticas<br>Juan G</td>
+      <td>Química<br>Andersson</td>
+      <td>Matemáticas<br>Juan G</td>
+      <td>Sociales<br>Marelvis M</td>
+      <td>Inglés<br>Hernando R</td>
+    </tr>
+    <tr class="descanso">
+      <td>(10:00 - 10:30)</td>
+      <td colspan="5">DESCANSO</td>
+    </tr>
+    <tr>
+      <td>5 (10:30 - 11:30)</td>
+      <td>Lengua Castellana<br>Paula F</td>
+      <td>Física<br>Juan G</td>
+      <td>Matemáticas<br>Juan G</td>
+      <td>Informática<br>Oscar B</td>
+      <td>Filosofía<br>Andrés B</td>
+    </tr>
+    <tr>
+      <td>6 (11:30 - 12:30)</td>
+      <td>Inglés<br>Hernando R</td>
+      <td>Física<br>Juan G</td>
+      <td>Lengua Castellana<br>Paula F</td>
+      <td>Química<br>Andersson</td>
+      <td>Filosofía<br>Andrés B</td>
+    </tr>
+    <tr class="descanso">
+      <td>(12:30 - 12:45)</td>
+      <td colspan="5">DESCANSO</td>
+    </tr>
+    <tr>
+      <td>7 (12:45 - 1:45)</td>
+      <td>Inglés<br>Hernando R</td>
+      <td>Artística<br>Liz M</td>
+      <td>Lengua Castellana<br>Paula F</td>
+      <td>Química<br>Andersson</td>
+      <td>C. Política y Economía<br>Marelvis M</td>
+    </tr>
+  </table>
+</body>
+</html>
